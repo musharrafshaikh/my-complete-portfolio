@@ -1,0 +1,178 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+:root{
+    --primary-color:#ba55d3;
+    --black-color:#0E2431;
+    --white-color:#fff;
+
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+/* navbar styling */
+nav{
+    position:fixed;
+    width:100%;
+    padding:20px 0;
+    z-index: 999;
+    transition: all 0.3s ease;
+  }
+  nav.stck{
+    background:var(--primary-color);
+    padding:13px 0;
+  }
+  nav .navbar{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+  }
+  nav .navbar .logo a{
+    font-weight: 500;
+    font-size: 35px;
+    color:var(--primary-color);
+  }
+  
+  nav.stck .navbar .logo a{
+    color:var(--white-color);
+  }
+  nav .navbar .menu{
+    display:flex;
+    position:relative;
+  }
+  nav .navbar .menu li{
+    list-style: none;
+    margin:0 8px;
+  }
+  nav .navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color:var(--black-color);
+    padding:6px 0;
+    transition: all 0.4s ease;
+  }
+  .navbar .menu a:hover{
+    color:var(--primary-color);
+  }
+  nav.sticky .menu a{
+    color:var(--white-color);
+  }
+  nav.sticky .menu a:hover{
+    color:var(--black-color);
+  }
+  .navbar .media-icons a{
+    color:var(--primary-color);
+    font-size: 18px;
+    margin:0 5px;
+  }
+  nav.sticky .media-icons a{
+    color:var(--white-color);
+  }
+/* side navigation Menu Button CSS */
+nav .menu-btn,
+.navbar .menu .cancel-btn{
+  position:absolute;
+  color:var(--white-color);
+  right:30px;
+  top:20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+
+nav .menu-btn{
+  color:var(--primary-color);
+}
+nav.sticky .menu-btn{
+  color:var(--white-color);
+}
+.navbar .menu .menu-btn{
+  color:var(--white-color);
+}
+
+.hero-heading{
+  text-align: center;
+  padding: 5rem;
+   font-family: 'Poppins', sans-serif;
+}
+.live-project{
+   outline:none;
+      padding:6px 12px;
+      border-radius: 15px;
+      font-size: 2opx;
+      font-weight: 300;
+      background: var(--primary-color);
+      color:var(--white-color);
+      border:2px solid transparent;
+      cursor: pointer;
+      transition: all 0.4s ease;
+
+}
+.live-project:hover{
+   border-color:var(--primary-color);
+      background-color: var(--white-color);
+      color:var(--primary-color);
+}
+
+.view-code{
+  outline:none;
+      padding:6px 12px;
+      border-radius: 15px;
+      font-size: 2opx;
+      font-weight: 300;
+      background: var(--primary-color);
+      color:var(--white-color);
+      border:2px solid transparent;
+      cursor: pointer;
+      transition: all 0.4s ease;
+}
+.view-code:hover{
+   border-color:var(--primary-color);
+      background-color: var(--white-color);
+      color:var(--primary-color);
+}
+
+p{
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+}
+
+h1{
+    margin-block-start: 0.8rem;
+    margin-block-end: 0.8rem;
+}
+h5{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+  .section{
+      background-color:aliceblue;
+    color:black;}
+  
+
+  }
