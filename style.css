@@ -273,6 +273,7 @@ section .title span{
   margin:0 auto;
   padding:30px 0;
 }
+
 .contact .text{
   width:80%;
   text-align: center;
@@ -369,4 +370,24 @@ section .title span{
 }
 .home .text-three{
   font-size: 33px;
+}
+
+
+
+
+/* Footer CSS */
+footer{
+  background:black;
+  padding:15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .text span{
+  font-size: 17px;
+  font-weight: 400;
+  color:var(--white-color);
+}
+footer .text span a{
+  font-weight: 500;
+  color:var(--white-color);
 }
